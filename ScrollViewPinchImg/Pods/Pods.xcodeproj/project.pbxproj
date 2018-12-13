@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C098BCAAE7C4C35BE6771EB3E9E437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		394980C50976E296E4B36110F7B396FC /* UITextView+ZWPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 814BE3F59E7EBEB60328A9198A68F7ED /* UITextView+ZWPlaceHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		755CE5F457E70FCE36BC806BC5110087 /* Pods-ScrollViewPinchImg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15323CC00FC6C7D3633E2878360782D /* Pods-ScrollViewPinchImg-dummy.m */; };
+		A15AF5AC249C5A7187F8008778BED40D /* UITextView+ZWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520E4F64F7CCE308C901FFEAFE05E74 /* UITextView+ZWPlaceHolder.m */; };
+		E2C3BD44D8701D604193BE4B9C4F7249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EC36FAAED7F83C48EB64568977C95435 /* ZWPlaceHolder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 628F1BC4448055988FDA52CD5C3DDEAE /* ZWPlaceHolder-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1A964AB78F0CF74C73AA61A9F3D07D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B775AE2D1AD6A8A14D1F3B808DA1829;
+			remoteInfo = ZWPlaceHolder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C33737DD840AB1B09BAE5377A92991 /* libPods-ScrollViewPinchImg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScrollViewPinchImg.a"; path = "libPods-ScrollViewPinchImg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1520E4F64F7CCE308C901FFEAFE05E74 /* UITextView+ZWPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ZWPlaceHolder.m"; path = "ZWPlaceHolder/UITextView+ZWPlaceHolder.m"; sourceTree = "<group>"; };
+		330780286EFD886EB6B58DC56538D7F4 /* Pods-ScrollViewPinchImg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPinchImg.release.xcconfig"; sourceTree = "<group>"; };
+		49AF16530DADCAC60652931FA97AD013 /* Pods-ScrollViewPinchImg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewPinchImg.debug.xcconfig"; sourceTree = "<group>"; };
+		4D71D04AED344583CF14E3F3222A5C4D /* Pods-ScrollViewPinchImg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollViewPinchImg-acknowledgements.markdown"; sourceTree = "<group>"; };
+		628F1BC4448055988FDA52CD5C3DDEAE /* ZWPlaceHolder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWPlaceHolder-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73C94BE00A5ED089780A51559D424800 /* Pods-ScrollViewPinchImg-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPinchImg-frameworks.sh"; sourceTree = "<group>"; };
+		814BE3F59E7EBEB60328A9198A68F7ED /* UITextView+ZWPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+ZWPlaceHolder.h"; path = "ZWPlaceHolder/UITextView+ZWPlaceHolder.h"; sourceTree = "<group>"; };
+		8550C145A32E6C6C9A6DEF387DE88CCC /* ZWPlaceHolder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWPlaceHolder-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA068ADC8F5F9BA8E33B08B25BCC8FC /* libZWPlaceHolder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZWPlaceHolder.a; path = libZWPlaceHolder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FFBE787E2EE1192C25E5C5619D9453 /* Pods-ScrollViewPinchImg-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewPinchImg-resources.sh"; sourceTree = "<group>"; };
+		D15C9F9A83E806ABAF2003F6665693CD /* Pods-ScrollViewPinchImg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollViewPinchImg-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7A08E29A2AB02D666369D48E497EC5D /* ZWPlaceHolder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWPlaceHolder.xcconfig; sourceTree = "<group>"; };
+		F15323CC00FC6C7D3633E2878360782D /* Pods-ScrollViewPinchImg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollViewPinchImg-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27CF88D4252D1AC5F9956D62F138132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C098BCAAE7C4C35BE6771EB3E9E437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAED6BA18C467BAA97E837B9157392A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3BD44D8701D604193BE4B9C4F7249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F23B2263DBB05259885AD55B5141F7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C23A4901038BE14BD3FD78F6F520DF38 /* ZWPlaceHolder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3ACF158242B689B72F893BCCA1F4A618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C33737DD840AB1B09BAE5377A92991 /* libPods-ScrollViewPinchImg.a */,
+				9AA068ADC8F5F9BA8E33B08B25BCC8FC /* libZWPlaceHolder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2F23B2263DBB05259885AD55B5141F7B /* Pods */,
+				3ACF158242B689B72F893BCCA1F4A618 /* Products */,
+				E598C49CC4EACA1C005F16684067F650 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		984658C5A58B5A1F8FF61E6AA2E742EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A08E29A2AB02D666369D48E497EC5D /* ZWPlaceHolder.xcconfig */,
+				628F1BC4448055988FDA52CD5C3DDEAE /* ZWPlaceHolder-dummy.m */,
+				8550C145A32E6C6C9A6DEF387DE88CCC /* ZWPlaceHolder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZWPlaceHolder";
+			sourceTree = "<group>";
+		};
+		B58FCF0338B7A05486407B6FE7BB43B2 /* Pods-ScrollViewPinchImg */ = {
+			isa = PBXGroup;
+			children = (
+				4D71D04AED344583CF14E3F3222A5C4D /* Pods-ScrollViewPinchImg-acknowledgements.markdown */,
+				D15C9F9A83E806ABAF2003F6665693CD /* Pods-ScrollViewPinchImg-acknowledgements.plist */,
+				F15323CC00FC6C7D3633E2878360782D /* Pods-ScrollViewPinchImg-dummy.m */,
+				73C94BE00A5ED089780A51559D424800 /* Pods-ScrollViewPinchImg-frameworks.sh */,
+				A1FFBE787E2EE1192C25E5C5619D9453 /* Pods-ScrollViewPinchImg-resources.sh */,
+				49AF16530DADCAC60652931FA97AD013 /* Pods-ScrollViewPinchImg.debug.xcconfig */,
+				330780286EFD886EB6B58DC56538D7F4 /* Pods-ScrollViewPinchImg.release.xcconfig */,
+			);
+			name = "Pods-ScrollViewPinchImg";
+			path = "Target Support Files/Pods-ScrollViewPinchImg";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23A4901038BE14BD3FD78F6F520DF38 /* ZWPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				814BE3F59E7EBEB60328A9198A68F7ED /* UITextView+ZWPlaceHolder.h */,
+				1520E4F64F7CCE308C901FFEAFE05E74 /* UITextView+ZWPlaceHolder.m */,
+				984658C5A58B5A1F8FF61E6AA2E742EE /* Support Files */,
+			);
+			name = ZWPlaceHolder;
+			path = ZWPlaceHolder;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E598C49CC4EACA1C005F16684067F650 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58FCF0338B7A05486407B6FE7BB43B2 /* Pods-ScrollViewPinchImg */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BE3E4E747DB84446A724023B1C87825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394980C50976E296E4B36110F7B396FC /* UITextView+ZWPlaceHolder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AF947122E73AA8C90EAD0D0A7F5ECD2 /* Pods-ScrollViewPinchImg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA36851613E01393FBE46635139BF4CF /* Build configuration list for PBXNativeTarget "Pods-ScrollViewPinchImg" */;
+			buildPhases = (
+				05D0B7E214401A683C0162AA6264FEF4 /* Sources */,
+				EAAED6BA18C467BAA97E837B9157392A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				787D9CB5E6F4563AA3124B9A69DCB5AE /* PBXTargetDependency */,
+			);
+			name = "Pods-ScrollViewPinchImg";
+			productName = "Pods-ScrollViewPinchImg";
+			productReference = 00C33737DD840AB1B09BAE5377A92991 /* libPods-ScrollViewPinchImg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B775AE2D1AD6A8A14D1F3B808DA1829 /* ZWPlaceHolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90629BB190401A7BDD6D0A720918D709 /* Build configuration list for PBXNativeTarget "ZWPlaceHolder" */;
+			buildPhases = (
+				53A9E9CB599FA1209DDC7961C154EDD0 /* Sources */,
+				C27CF88D4252D1AC5F9956D62F138132 /* Frameworks */,
+				2BE3E4E747DB84446A724023B1C87825 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPlaceHolder;
+			productName = ZWPlaceHolder;
+			productReference = 9AA068ADC8F5F9BA8E33B08B25BCC8FC /* libZWPlaceHolder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3ACF158242B689B72F893BCCA1F4A618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF947122E73AA8C90EAD0D0A7F5ECD2 /* Pods-ScrollViewPinchImg */,
+				7B775AE2D1AD6A8A14D1F3B808DA1829 /* ZWPlaceHolder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D0B7E214401A683C0162AA6264FEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755CE5F457E70FCE36BC806BC5110087 /* Pods-ScrollViewPinchImg-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A9E9CB599FA1209DDC7961C154EDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15AF5AC249C5A7187F8008778BED40D /* UITextView+ZWPlaceHolder.m in Sources */,
+				EC36FAAED7F83C48EB64568977C95435 /* ZWPlaceHolder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		787D9CB5E6F4563AA3124B9A69DCB5AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZWPlaceHolder;
+			target = 7B775AE2D1AD6A8A14D1F3B808DA1829 /* ZWPlaceHolder */;
+			targetProxy = B1A964AB78F0CF74C73AA61A9F3D07D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F83555594C24AD1503975E897590799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A08E29A2AB02D666369D48E497EC5D /* ZWPlaceHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZWPlaceHolder/ZWPlaceHolder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZWPlaceHolder;
+				PRODUCT_NAME = ZWPlaceHolder;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90013BB9E4D97BB14B17B2911E1DF6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330780286EFD886EB6B58DC56538D7F4 /* Pods-ScrollViewPinchImg.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEE9D809C186190088796364A3C0AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49AF16530DADCAC60652931FA97AD013 /* Pods-ScrollViewPinchImg.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E760A340BF03CB3A9735F6F99679985F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A08E29A2AB02D666369D48E497EC5D /* ZWPlaceHolder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZWPlaceHolder/ZWPlaceHolder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZWPlaceHolder;
+				PRODUCT_NAME = ZWPlaceHolder;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90629BB190401A7BDD6D0A720918D709 /* Build configuration list for PBXNativeTarget "ZWPlaceHolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F83555594C24AD1503975E897590799 /* Debug */,
+				E760A340BF03CB3A9735F6F99679985F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA36851613E01393FBE46635139BF4CF /* Build configuration list for PBXNativeTarget "Pods-ScrollViewPinchImg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEE9D809C186190088796364A3C0AF8 /* Debug */,
+				90013BB9E4D97BB14B17B2911E1DF6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

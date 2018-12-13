@@ -1,0 +1,16 @@
+PODS:
+  - ZWPlaceHolder (0.0.2)
+
+DEPENDENCIES:
+  - ZWPlaceHolder
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ZWPlaceHolder
+
+SPEC CHECKSUMS:
+  ZWPlaceHolder: d55cce10c9930b48c31bf48e7f4748974a31f7e0
+
+PODFILE CHECKSUM: 9e1856351e54427a3de0c400fe453aea12c5ce85
+
+COCOAPODS: 1.5.3
